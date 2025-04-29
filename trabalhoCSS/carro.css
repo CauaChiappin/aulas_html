@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader {
+    width: 63.5%;
+    text-align: center;
+}
+
+
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.imagem {
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.titlamborghini {
+    color: rgb(38, 165, 0);
+    font-size: 40px;
+}
+
+.text1lamborghini {
+    margin-right: 1200px;
+    font-size: 22px;
+}
+
+.sobrelamborghini {
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+.img1lamborghini {
+    margin-left: 1000px;
+    margin-top: -420px;
+}
+
+.img2lamborghini {
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.img3lamborghini {
+    margin-left: 1000px;
+    margin-top: -490px;
+}
+
+.img4lamborghini {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text2lamborghini {
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.text1ferrari {
+    margin-right: 1200px;
+    font-size: 22px;
+}
+
+.text2ferrari {
+    font-size: 22px;
+}
+
+.titferrari {
+    color: rgb(165, 0, 0);
+    font-size: 40px;
+}
+
+.sobreferrari {
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.img1ferrari {
+    margin-left: 1000px;
+    margin-top: -520px;
+    
+}
+
+.img2ferrari {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.img3ferrari {
+   margin-left: 1000px;
+    margin-top: -492.5px;
+}
+
+.img4ferrari {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text1porsche {
+    margin-right: 1200px;
+    font-size: 22px;
+}
+
+.text2porsche {
+    font-size: 22px;
+}
+
+.titporsche {
+    color: rgb(0, 153, 255);
+    font-size: 40px;
+}
+
+.sobreporsche {
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.img1porsche {
+    margin-left: 1000px;
+    margin-top: -420px;
+}
+
+.img2porsche {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.img3porsche {
+    margin-left: 1000px;
+    margin-top: -492.5px;
+}
+
+.img4porsche {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text1mercedes {
+    margin-right: 1200px;
+    font-size: 22px;
+}
+
+.text2mercedes {
+    font-size: 22px;
+}
+
+.titmercedes {
+    color: rgb(131, 131, 131);
+    font-size: 40px;
+}
+
+.sobremercedes {
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.img1mercedes {
+    margin-left: 1000px;
+    margin-top: -420px;
+}
+
+.img2mercedes {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.img3mercedes {
+    margin-left: 1000px;
+    margin-top: -491px;
+}
+
+.img4mercedes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tabelaDeCompra {
+    justify-content: center;
+    height: 417px;
+    width: 400px;
+    border-radius: 20px;
+    border: solid 2px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.preçoDoCarro {
+    margin: 0;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 22px;
+}
+
+input {
+    height: 30px;
+    width: 350px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+button {
+    height: 50px;
+    width: 358px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+.msg {
+    height: 65px;
+}
+
+form {
+    text-align: center;
+}
+
+
+.menu {
+
+    background:#000000; 
+    box-shadow: 1px 0px 1.2px 0px #000000; 
+    border-radius:3px; 
+    padding:5px; 
+ 
+ }
+ 
+ .menu ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-flow: row wrap;
+ }
+ 
+ .menu li {
+   padding: 0.8em 1.5em;
+   font-family: Impact, fantasy;
+   font-weight: bold;
+ }
+ 
+ .menu a {
+ 
+   text-decoration: none;
+   position: relative;
+   color:#ffffff;
+   font-size:1.2em;
+   padding: 10px 0;
+   transition: 0.3s;
+ }
+ 
+ .menu a:hover { color:#ffffff; }
+ 
+ .menu .line::after {
+   content: "";
+   border-bottom: solid 2px #ffffff;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   transform: scaleX(0);
+   transform-origin: right;
+   transition: transform 0.25s;
+ }
+ 
+ .menu .line:hover::after {
+   border-bottom: solid 2px #ffffff;
+   transform-origin: left;
+   transform: scaleX(1);
+ }
+ 
+ @-webkit-keyframes line {
+   from { transform: scaleX(0); }
+   to   { transform: scaleX(1); }
+ }
+ 
+ @keyframes line {
+ 
+   from { transform: scaleX(0); }
+   to   { transform: scaleX(1); }
+ 
+ }
+ 
+ @media only screen and (max-width:768px) {
+ 
+   .menu-underline li { width:100%; text-align:center; margin-bottom:15px; }
+ 
+ }
+
+ footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px 0 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin-left: 130px;
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ecf0f1;
+}
+
+.footer-section p,
+.footer-section ul li {
+    font-size: 16px;
+    color: #bdc3c7;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center; 
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+.footer_div{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 130px;
+}
+.footer_div ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.footer_lista{
+    margin: 70px;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+}
+
+.footer_lista li{
+    padding: 0;
+}
+.footer_lista a{
+    color: #bdc3c7;
+}
+
+@view-transition{
+    navigation: auto;
+}
